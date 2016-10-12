@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">tema2_hoja4</string>
+    <string name="button1EjDirectCall">Llamada directa</string>
+    <string name="button2Ej1SetAlarm">Añadir alarma</string>
+    <string name="button1Ej3GetData">Obtener datos de usuario</string>
+    <string name="textViewEj3">Datos obtenidos:</string>
+    <string name="textViewEj3UserName">Introduce tu nombre y apellidos:</string>
+    <string name="username">Nombre y apellidos</string>
+    <string name="textView2Ej3Age">Introduce tu edad:</string>
+    <string name="editTextAge">Edad</string>
+    <string name="textViewJob">Introduce tu profesión:</string>
+    <string name="editTextJob">Profesión</string>
+    <string name="ButtonEj3">Añadir información</string>
+    <string name="textView1Ej4">El nombre introducido es:</string>
+    <string name="textView2Ej4">El nombre transformado es:</string>
+    <string name="button1Ej4">Pedir nombre</string>
+    <string name="Button2Ej4">Pedir transformación</string>
+    <string name="radioLowerCase">Minúsculas</string>
+    <string name="radioUpperCase">Mayúsculas</string>
+    <string name="radioReverse">Al revés</string>
+</resources>

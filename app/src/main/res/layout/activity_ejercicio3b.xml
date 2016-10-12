@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ejercicio3b"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="arey.es.tema2_hoja4.Ejercicio3b">
+
+    <TextView
+        android:text="@string/textViewEj3UserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView2Ej3UserName" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="17dp"
+        android:id="@+id/editTextName"
+        android:layout_below="@+id/textView2Ej3UserName"
+        android:layout_alignParentStart="true"
+        android:inputType="textPersonName"
+        android:hint="@string/username" />
+
+    <TextView
+        android:text="@string/textView2Ej3Age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextName"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView2Ej3Age" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/textView2Ej3Age"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:id="@+id/editTextAge"
+        android:hint="@string/editTextAge" />
+
+    <TextView
+        android:text="@string/textViewJob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextAge"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp"
+        android:id="@+id/textViewJob" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextJob"
+        android:layout_below="@+id/textViewJob"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp"
+        android:hint="@string/editTextJob" />
+
+    <Button
+        android:text="@string/ButtonEj3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:onClick="addData"
+        android:layout_below="@+id/editTextJob"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp" />
+
+</RelativeLayout>
